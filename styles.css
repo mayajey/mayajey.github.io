@@ -8,4 +8,10 @@ html, body {font-family:'Helvetica',
 			text-align: center;
 			margin: auto;
 			color: #000; 
-			background-color: #fff;} 
+			background-color: #fff;
+		} 
+
+ul, li {
+    margin: 0;
+    padding: 0;
+	}
