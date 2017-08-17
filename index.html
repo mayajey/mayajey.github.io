@@ -23,7 +23,7 @@
     <div id="logo">
       <h1 style="color: black;"><span style="font-weight:normal">MAYA JEYENDRAN</span></h1></div>
     <div id="navigation">
-    <button class="button"><a href="#/home.html" style="color: black">home</a></button>
+    <button class="button" onclick="showHome()"><a href="#/home.html" style="color: black">home</a></button>
     <button class="button" onclick="showAbout()"><a href="#/about.html" style="color: black">about</a></button>
     <button class="button"><a href="#/contact.html" style="color: black">contact</a></button>
     </div>
@@ -32,7 +32,7 @@
     <div id="/home.html">
       <h2 style="color: #9A9B9E;">home</h2>
       <p>
-        welcome! centering works now HIDE when you click about
+        welcome! home issues
       </p>
     </div>
 
@@ -47,6 +47,17 @@
         }
         var y = document.getElementById('/home.html');
         y.style.display = 'none';
+      }     
+    </script>
+
+    <script>
+      function showHome() {
+        var x = document.getElementById('/home.html');
+        if (x.style.display === 'none') {
+        x.style.display = 'block';
+        } else {
+          x.style.display = 'none';
+        }
       }     
     </script>
 
