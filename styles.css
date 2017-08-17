@@ -12,6 +12,10 @@ html, body {font-family:'Muli',
 			background-color: #fff;
 		} 
 
+#page {
+	vertical-align: middle;
+}		
+
 ul, li {
     margin: 0;
     padding: 0;
