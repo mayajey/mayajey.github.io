@@ -42,9 +42,14 @@
         var x = document.getElementById('/about.html');
         if (x.style.display === 'none') {
         x.style.display = 'block';
-        } 
+        } else {
+          x.style.display = 'hide';
+        }
+        var y = document.getElementById('/home.html');
+        y.style.display = 'hide';
       }     
     </script>
+
 
       <div id="/about.html" style="display: none;">
       <h2 style="color: #9A9B9E;">about</h2>
